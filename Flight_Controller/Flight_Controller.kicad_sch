@@ -14355,7 +14355,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 121.92) (xy 340.36 121.92)
+			(xy 337.82 121.92) (xy 341.63 121.92)
 		)
 		(stroke
 			(width 0)
@@ -28924,7 +28924,7 @@
 	(symbol
 		(lib_name "Round_Pad_1")
 		(lib_id "Scozzina:Round_Pad")
-		(at 340.36 121.92 0)
+		(at 341.63 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28932,7 +28932,7 @@
 		(dnp no)
 		(uuid "e389b1be-b27a-4c54-a817-baa4cadf3959")
 		(property "Reference" "U49"
-			(at 346.71 121.92 0)
+			(at 347.98 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28941,7 +28941,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 346.71 123.1899 0)
+			(at 347.98 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28951,7 +28951,7 @@
 			)
 		)
 		(property "Footprint" "Scozzina:Round Pad"
-			(at 340.36 124.206 0)
+			(at 341.63 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28960,7 +28960,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 340.36 121.92 0)
+			(at 341.63 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28969,7 +28969,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 340.36 121.92 0)
+			(at 341.63 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
