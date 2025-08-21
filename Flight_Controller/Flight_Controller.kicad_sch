@@ -10906,12 +10906,6 @@
 		(uuid "b3f802ba-fbf5-444c-8774-f8e4ff353afd")
 	)
 	(junction
-		(at 288.29 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b5b028b9-bba1-43d6-b74e-fce19e6ec54b")
-	)
-	(junction
 		(at 105.41 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12885,6 +12879,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 68.58) (xy 288.29 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a982978-51a5-4242-86ef-5d1710a05349")
+	)
+	(wire
+		(pts
 			(xy 288.29 45.72) (xy 290.83 45.72)
 		)
 		(stroke
@@ -13735,16 +13739,6 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 68.58) (xy 288.29 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a23a8ff0-9c70-4db9-8c9d-63861ac88faf")
-	)
-	(wire
-		(pts
 			(xy 335.28 92.71) (xy 337.82 92.71)
 		)
 		(stroke
@@ -13915,7 +13909,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 71.12) (xy 288.29 72.39)
+			(xy 288.29 68.58) (xy 288.29 72.39)
 		)
 		(stroke
 			(width 0)
@@ -14325,16 +14319,6 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 68.58) (xy 288.29 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c24d9900-e4a4-4a8d-aecc-6f844adbbd66")
-	)
-	(wire
-		(pts
 			(xy 55.88 114.3) (xy 55.88 116.84)
 		)
 		(stroke
@@ -14622,16 +14606,6 @@
 			(type default)
 		)
 		(uuid "cf0cbc7c-595f-4c81-b948-d745f92bd223")
-	)
-	(wire
-		(pts
-			(xy 283.21 71.12) (xy 288.29 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf125e73-c541-4d4b-b3ac-f4e811289a3d")
 	)
 	(wire
 		(pts
@@ -15531,17 +15505,6 @@
 		)
 		(uuid "184b0a94-b2b3-4cec-9aff-10854d11b645")
 	)
-	(hierarchical_label "VBAT"
-		(shape input)
-		(at 283.21 71.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1b63b6ec-e069-4ab4-b6a5-e68a7144fba1")
-	)
 	(hierarchical_label "BOOT0"
 		(shape input)
 		(at 181.61 41.91 180)
@@ -16125,6 +16088,17 @@
 		)
 		(uuid "6f1d8f55-50df-41a6-87b2-a899743a3e26")
 	)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 214.63 128.27 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6f5ee639-3189-4a50-8f24-9e291b1f5172")
+	)
 	(hierarchical_label "VSSA"
 		(shape input)
 		(at 207.01 128.27 270)
@@ -16553,17 +16527,6 @@
 			(justify right)
 		)
 		(uuid "b17bc72e-11fd-4dd5-87bf-986efb729fb8")
-	)
-	(hierarchical_label "VBAT"
-		(shape input)
-		(at 214.63 128.27 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b1f3cfbb-c691-47d1-8b61-aa1765a11975")
 	)
 	(hierarchical_label "+3.3V"
 		(shape input)
@@ -25710,6 +25673,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 288.29 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "955402c0-9bb2-49f4-a39c-583516f55211")
+		(property "Reference" "C12"
+			(at 292.1 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 292.1 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 289.2552 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 288.29 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 288.29 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0071b1ee-37e8-497b-8bbc-675407a275fa")
+		)
+		(pin "2"
+			(uuid "3aeed126-93c1-43ff-a43f-169d3b12a522")
+		)
+		(instances
+			(project "Flight_Controller"
+				(path "/fa1264d7-ae9c-4726-8931-cabe12253ef3"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "1_SCH_GIT_FULL-altium-import:GND_POWER_GROUND")
 		(at 64.77 158.75 0)
 		(unit 1)
@@ -27513,75 +27545,6 @@
 			(project "Flight_Controller"
 				(path "/fa1264d7-ae9c-4726-8931-cabe12253ef3"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 288.29 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bf09f245-6fea-42c0-ad57-02dd6185b079")
-		(property "Reference" "C12"
-			(at 284.48 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 289.56 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 289.2552 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 288.29 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 288.29 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "85c6fcb1-0350-4fb7-bd3e-7d60c39c761c")
-		)
-		(pin "2"
-			(uuid "a6213958-f01f-44e7-a3c7-84c10301a1d9")
-		)
-		(instances
-			(project "Flight_Controller"
-				(path "/fa1264d7-ae9c-4726-8931-cabe12253ef3"
-					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -30454,6 +30417,49 @@
 			)
 		)
 		(property "Footprint" ""
+			(at 176.53 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "c928ad65-8437-4040-8540-39d35e22f338")
+		)
+		(instances
+			(project "Flight_Controller"
+				(path "/fa1264d7-ae9c-4726-8931-cabe12253ef3"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
+" ""
 			(at 176.53 256.54 0)
 			(effects
 				(font
