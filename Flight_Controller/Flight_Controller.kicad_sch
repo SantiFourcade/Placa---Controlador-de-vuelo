@@ -11042,8 +11042,16 @@
 		(uuid "0b75b363-81ac-4907-97a6-e71beb1e3265")
 	)
 	(no_connect
+		(at 266.7 203.2)
+		(uuid "0bf2fcd5-8675-4107-a013-e82226c31f02")
+	)
+	(no_connect
 		(at 185.42 59.69)
 		(uuid "0c14f189-1fbb-498b-8c23-da3078065205")
+	)
+	(no_connect
+		(at 218.44 158.75)
+		(uuid "101a3fab-f38e-42fc-869e-0ea0f80576c8")
 	)
 	(no_connect
 		(at 83.82 182.88)
@@ -11074,6 +11082,10 @@
 		(uuid "3901e889-4f38-45dc-9739-4bb55afe7432")
 	)
 	(no_connect
+		(at 287.02 205.74)
+		(uuid "3973deee-6ec7-4240-ab30-718a6fe282f3")
+	)
+	(no_connect
 		(at 185.42 36.83)
 		(uuid "3f6a80e3-8ba6-4743-80f9-8f8a8c8cf3e1")
 	)
@@ -11098,6 +11110,10 @@
 		(uuid "58326a5f-7bec-4a92-ac81-9fa137bdad39")
 	)
 	(no_connect
+		(at 287.02 203.2)
+		(uuid "59271345-3895-4e4c-8c5d-80dab10d61aa")
+	)
+	(no_connect
 		(at 226.06 82.55)
 		(uuid "5da2ddff-f8a6-4613-8c64-fb2463e4f02f")
 	)
@@ -11108,6 +11124,10 @@
 	(no_connect
 		(at 226.06 100.33)
 		(uuid "74b02d25-a1d7-488a-9a4b-e5df7e490509")
+	)
+	(no_connect
+		(at 266.7 205.74)
+		(uuid "7afefa42-b117-45a8-adb1-75989ed209c8")
 	)
 	(no_connect
 		(at 185.42 80.01)
@@ -30456,52 +30476,6 @@
 		(path "/"
 			(page "1")
 		)
-	)
-	(embedded_fonts no)
-)
-" ""
-			(at 176.53 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 176.53 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "c928ad65-8437-4040-8540-39d35e22f338")
-		)
-		(instances
-			(project "Flight_Controller"
-				(path "/fa1264d7-ae9c-4726-8931-cabe12253ef3"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
-)
 	)
 	(embedded_fonts no)
 )
