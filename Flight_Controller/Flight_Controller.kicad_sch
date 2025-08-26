@@ -18390,6 +18390,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 359.41 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13ee6ba8-2a93-47ee-9ea6-822a04dd02e8")
+		(property "Reference" "H3"
+			(at 361.95 227.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 361.95 229.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm"
+			(at 359.41 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 359.41 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 359.41 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Flight_Controller"
+				(path "/fa1264d7-ae9c-4726-8931-cabe12253ef3"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "1_SCH_GIT_FULL-altium-import:+9V_BAR")
 		(at 335.28 161.29 270)
 		(unit 1)
@@ -18916,6 +18980,70 @@
 			(project ""
 				(path "/fa1264d7-ae9c-4726-8931-cabe12253ef3"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 341.63 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d5922f4-2b2f-4449-a21c-3c11b290c1ec")
+		(property "Reference" "H2"
+			(at 344.17 227.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 344.17 229.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm"
+			(at 341.63 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 341.63 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 341.63 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Flight_Controller"
+				(path "/fa1264d7-ae9c-4726-8931-cabe12253ef3"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -23614,6 +23742,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 378.46 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "789a6151-4d90-4661-aa92-09fd76d35499")
+		(property "Reference" "H4"
+			(at 381 227.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 381 229.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm"
+			(at 378.46 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 378.46 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 378.46 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Flight_Controller"
+				(path "/fa1264d7-ae9c-4726-8931-cabe12253ef3"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "Round_Pad_1")
 		(lib_id "Scozzina:Round_Pad")
 		(at 378.46 149.86 0)
@@ -24890,70 +25082,6 @@
 			(project "Flight_Controller"
 				(path "/fa1264d7-ae9c-4726-8931-cabe12253ef3"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 378.46 228.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ab65869-b961-498d-a662-e5c1ec20b7df")
-		(property "Reference" "H4"
-			(at 381 227.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 381 229.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
-			(at 378.46 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 378.46 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 378.46 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Flight_Controller"
-				(path "/fa1264d7-ae9c-4726-8931-cabe12253ef3"
-					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -26252,7 +26380,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm"
 			(at 321.31 228.6 0)
 			(effects
 				(font
@@ -26926,7 +27054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+5VBAT"
 			(at 133.35 96.52 0)
 			(effects
 				(font
@@ -27302,70 +27430,6 @@
 			(project "Flight_Controller"
 				(path "/fa1264d7-ae9c-4726-8931-cabe12253ef3"
 					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 340.36 228.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bcd7413c-0c38-4284-a793-da84fe93c56c")
-		(property "Reference" "H2"
-			(at 342.9 227.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 342.9 229.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
-			(at 340.36 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 340.36 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 340.36 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Flight_Controller"
-				(path "/fa1264d7-ae9c-4726-8931-cabe12253ef3"
-					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -29103,70 +29167,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 359.41 228.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e40e34c9-a83b-48dc-b157-6f83e01a270d")
-		(property "Reference" "H3"
-			(at 361.95 227.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 361.95 229.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
-			(at 359.41 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 359.41 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 359.41 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Flight_Controller"
-				(path "/fa1264d7-ae9c-4726-8931-cabe12253ef3"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "1_SCH_GIT_FULL-altium-import:+5V_BAR")
 		(at 337.82 191.77 270)
 		(unit 1)
@@ -30478,4 +30478,6 @@
 		)
 	)
 	(embedded_fonts no)
+)
+s no)
 )
