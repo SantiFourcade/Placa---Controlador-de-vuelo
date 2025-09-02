@@ -8,9 +8,7 @@
       "+VLIPO",
       "GND",
       "+9V",
-      "+5VBUS",
       "/+3.3V",
-      "+5VBAT",
       "+5V"
     ],
     "high_contrast_mode": 0,

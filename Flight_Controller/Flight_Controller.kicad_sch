@@ -16130,7 +16130,7 @@
 		)
 		(uuid "6f9ac3de-4120-4077-b6dc-88770cf3f404")
 	)
-	(hierarchical_label "I2C_SDA_IN"
+	(hierarchical_label "I2C_SDA_OUT"
 		(shape input)
 		(at 224.79 227.33 0)
 		(effects
@@ -16438,7 +16438,7 @@
 		)
 		(uuid "a0af496d-f262-4d0e-8bad-07de97cf8f0c")
 	)
-	(hierarchical_label "I2C_SCL_IN"
+	(hierarchical_label "I2C_SCL_OUT"
 		(shape input)
 		(at 224.79 232.41 0)
 		(effects
@@ -30478,8 +30478,4 @@
 		)
 	)
 	(embedded_fonts no)
-)
-_fonts no)
-)
-s no)
 )
