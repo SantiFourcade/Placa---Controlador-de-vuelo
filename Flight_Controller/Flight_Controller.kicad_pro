@@ -233,6 +233,11 @@
     "layer_pairs": [
       {
         "bottomLayer": 2,
+        "enabled": false,
+        "topLayer": 0
+      },
+      {
+        "bottomLayer": 4,
         "enabled": true,
         "topLayer": 0
       }
