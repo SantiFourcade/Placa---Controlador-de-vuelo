@@ -1,15 +1,10 @@
 {
   "board": {
-    "active_layer": 6,
+    "active_layer": 11,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
-    "hidden_nets": [
-      "GND",
-      "+9V",
-      "/+3.3V",
-      "+5V"
-    ],
+    "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
@@ -36,9 +31,7 @@
     "visible_items": [
       "vias",
       "footprint_text",
-      "footprint_anchors",
       "ratsnest",
-      "grid",
       "footprints_front",
       "footprints_back",
       "footprint_values",
@@ -55,7 +48,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000000_00000040",
+    "visible_layers": "ffffffff_ffffffff_fffffff5_d75f5582",
     "zone_display_mode": 0
   },
   "git": {
